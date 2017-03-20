@@ -100,12 +100,12 @@ var buildDefaultConfig = {
 };
 if (envCli === 'start') {
     webpackConfig = util._extend(serverDefaultConfig, webpackConfig);
-    console.log('webpackConfig',webpackConfig);
 } else if (envCli === 'build') {
-    console.log(232)
     webpackConfig = util._extend(buildDefaultConfig, webpackConfig);
     libs();
 }
+
+
 
 //复制lib打包代码
 function libs() {
