@@ -1,10 +1,14 @@
 {
   "name": "message-event",
   "main":  "lib/index.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "start": "detail start",
     "build": "detail build"
+  },
+   "repository": {
+    "type": "git",
+    "url": "git://github.com/zhoujianlin8/message-event"
   },
   "devDependencies": {
     "babel-core": "^6.7.4",
